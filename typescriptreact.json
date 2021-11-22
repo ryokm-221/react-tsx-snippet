@@ -1,0 +1,18 @@
+{
+	"React TSX Component": {
+		"prefix": "react-tsx-component",
+		"body": [
+			"import React, { ReactElement } from 'react';",
+			"",
+			"const ${TM_FILENAME_BASE}: React.FC = (): ReactElement => {",
+			"\treturn (",
+			"\t\t<div>${TM_FILENAME_BASE}</div>",
+			"\t);",
+			"};",
+			"",
+			"export default ${TM_FILENAME_BASE};",
+			""
+		],
+		"description": "React snippets for tsx"
+	}
+}
